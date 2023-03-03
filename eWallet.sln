@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{5215399A-42C7-4C89-90E6-FD524E1A1461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{FB4370BF-646C-4AF8-B62C-034233679380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWallet.API", "eWallet.API\eWallet.API.csproj", "{78B16380-4263-4581-BD6C-B3BCDCA0DE63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWallet.Infrastructure", "eWallet.Infrastructure\eWallet.Infrastructure.csproj", "{B8688056-0A98-4D2E-9D86-B65B5837261F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWallet.Domain", "eWallet.Domain\eWallet.Domain.csproj", "{9A497758-001D-4F98-91C4-1DD44249B04D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B16380-4263-4581-BD6C-B3BCDCA0DE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B16380-4263-4581-BD6C-B3BCDCA0DE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B16380-4263-4581-BD6C-B3BCDCA0DE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B16380-4263-4581-BD6C-B3BCDCA0DE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8688056-0A98-4D2E-9D86-B65B5837261F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8688056-0A98-4D2E-9D86-B65B5837261F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8688056-0A98-4D2E-9D86-B65B5837261F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8688056-0A98-4D2E-9D86-B65B5837261F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A497758-001D-4F98-91C4-1DD44249B04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A497758-001D-4F98-91C4-1DD44249B04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A497758-001D-4F98-91C4-1DD44249B04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A497758-001D-4F98-91C4-1DD44249B04D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78B16380-4263-4581-BD6C-B3BCDCA0DE63} = {5215399A-42C7-4C89-90E6-FD524E1A1461}
+		{B8688056-0A98-4D2E-9D86-B65B5837261F} = {5215399A-42C7-4C89-90E6-FD524E1A1461}
+		{9A497758-001D-4F98-91C4-1DD44249B04D} = {5215399A-42C7-4C89-90E6-FD524E1A1461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8987B65-BDA7-4B83-9193-084E3DF62F7F}
+	EndGlobalSection
+EndGlobal
