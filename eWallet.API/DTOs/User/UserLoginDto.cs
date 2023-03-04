@@ -1,8 +1,7 @@
 ﻿namespace CarteiraDigitalAPI.Dtos.Usuario
 {
-    public class UsuarioRegisterDto
+    public class UserLoginDto
     {
-        public string Nome { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
     }

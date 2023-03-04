@@ -5,7 +5,7 @@ using eWallet.API.DTOs.Operacao;
 
 namespace eWallet.API.DTOs.Usuario
 {
-    public class GetUsuarioDto
+    public class GetUserDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
