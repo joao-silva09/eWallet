@@ -1,4 +1,4 @@
-﻿namespace CarteiraDigitalAPI.Dtos.Usuario
+﻿namespace eWallet.API.DTOs.User
 {
     public class UserLoginDto
     {
